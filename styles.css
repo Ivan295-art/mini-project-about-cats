@@ -1,6 +1,62 @@
+/* Загальний контейнер */
+.testimonials {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
 
- h1{  
-    font-size: 64px;
-    text-align: center;
-    color: blue;
+/* Контейнер карток */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Картка відгуку */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Фото клієнта */
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* робить фото круглим */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Ім'я */
+.card h3 {
+  margin: 10px 0;
+}
+
+/* Зірочки */
+.stars {
+  font-size: 18px;
+  color: #f1c40f; /* золотий колір */
+}
+
+/* Hover-ефект */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column; /* вертикальне розташування */
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
 }
