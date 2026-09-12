@@ -1,0 +1,25 @@
+
+:root {
+--title-color:aqua;
+--black-color: brown;
+--azure-color: blue;
+--brown-color: azure;
+}
+
+.title {
+color: var(--title-color);
+
+    
+}
+
+.main {
+  color: var(--black-color);
+
+}
+.footer {
+    color: var(--azure-color);
+}
+.header {
+    color: var(--brown-color);
+    background-color: red;
+}

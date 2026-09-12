@@ -1,0 +1,30 @@
+.header {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 36px;
+ font-weight: bolder;
+
+}
+
+.body {
+font-style: italic;
+  font-size: 18px;  
+  text-align: 1.5;
+}
+.var {
+    font-size: 20px;
+    font-style: normal;
+    text-align: 1.8;
+}
+.color {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 22px;
+    text-align: right;
+}
+.lorem {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: 1.6;
+    text-align: left;
+
+}
